@@ -1,7 +1,5 @@
 # flyokai/amp-channel-dispatcher
 
-> User docs → [`README.md`](README.md) · Agent quick-ref → [`CLAUDE.md`](CLAUDE.md) · Agent deep dive → [`AGENTS.md`](AGENTS.md)
-
 Async bidirectional message dispatching over AMPHP channels with request-response correlation, middleware pipeline, remote iterators, and error handling.
 
 ## Core Architecture
