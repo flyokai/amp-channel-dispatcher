@@ -246,6 +246,9 @@ class Dispatcher
 
     private function enqueueWrite(Message $message): void
     {
+        if ($this->writeQueue->isComplete()) {
+            return;
+        }
         $this->writeQueue->pushAsync($message);
     }
 }
