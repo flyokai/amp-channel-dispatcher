@@ -1,0 +1,30 @@
+{
+    "name": "flyokai/amp-channel-dispatcher",
+    "description": "Dispatcher for amphp channel",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "amphp/sync": "^2",
+        "flyokai/misc": "self.version",
+        "flyokai/data-mate": "self.version"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Boyko",
+            "email": "wtsergo@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ],
+        "psr-4": {
+            "Flyokai\\AmpChannelDispatcher\\": "src/"
+        }
+    },
+    "prefer-stable": true
+}
